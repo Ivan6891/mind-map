@@ -1,24 +1,21 @@
 
 body {
     background-image: url(../img/10_02.jpg); 
-    
+    font-family: 'Roboto', sans-serif;
    }
    .main-container{
-       width: 1200px;
-       height: 1200px;
-       margin: 0 auto;
-       
-       display: flex;
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;   
+    display: flex;
    }
 .left-side{
     width: 400px;
     height: 1200px;
-    
 }
 .right-side {
     width: 400px;
     height: 1200px; 
-    
 }
 .button {
     width: 200px;
@@ -32,9 +29,6 @@ body {
     font-size: 24px;
     text-align: center;
     color: cornsilk;
-    
-    
-    
 }
 .button:hover{
     background: rgb(167, 166, 166);
@@ -83,13 +77,12 @@ body {
   A:link { 
     text-decoration: none; 
     color: darkkhaki;
-    
-   } 
+} 
    A:visited { text-decoration: none; } 
    A:active { 
     text-decoration: none;
     color: darkkhaki;
- }
+    }
    A:hover {
     text-decoration: none; 
     color: rgb(27, 26, 26); 
@@ -98,7 +91,6 @@ body {
        font-size: 14px;
        color: rgba(39, 38, 38, 0.842);
        text-align: justify;
-
    }
    .team{
     width: 300px;
