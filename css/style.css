@@ -77,6 +77,10 @@ body {
     color: rgb(24, 24, 24);
     text-align: left;
   }
+  .close {
+    display: block;
+    text-align: center;
+  }
   A:link {
     text-decoration: none;
     color: darkkhaki;
