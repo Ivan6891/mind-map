@@ -1,59 +1,52 @@
-
 body {
-    background-image: url(../img/23090815-seamless-of-notebook-sheet-in-square-cage-with-many-formulas-.jpeg); 
-    
-   }
-   .main-container{
-       width: 1200px;
-       height: 1200px;
-       margin: 0 auto;
-       
-       display: flex;
-   }
-.left-side{
+    background-image: url(../img/10_02.jpg);
+  }
+  .main-container {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+  
+    display: flex;
+  }
+  .left-side {
     width: 400px;
     height: 1200px;
-    
-}
-.right-side {
+  }
+  .right-side {
     width: 400px;
-    height: 1200px; 
-    
-}
-.button {
+    height: 1200px;
+  }
+  .button {
     width: 200px;
     height: 50px;
     margin-top: 20px;
-    background-color:rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.507);
     margin-left: 100px;
     border-radius: 20px;
     display: block;
-    box-shadow: 0 10px  10px #ccc;   
+    box-shadow: 0 10px 10px #ccc;
     font-size: 24px;
     text-align: center;
     color: cornsilk;
-    
-    
-    
-}
-.button:hover{
+  }
+  .button:hover {
     background: rgb(167, 166, 166);
-    color:white;
-}
-.book {
+    color: white;
+  }
+  .book {
     margin-top: 80px;
-    box-shadow: 0 20px  20px #ccc; 
+    box-shadow: 0 20px 20px #ccc;
     border-radius: 20px;
     opacity: 1;
     width: 300px;
-}
-.book:hover {
+  }
+  .book:hover {
     opacity: 0.8;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-}
-.black_overlay {
+  }
+  .black_overlay {
     display: none;
     position: absolute;
     top: 0%;
@@ -63,8 +56,11 @@ body {
     background-color: black;
     z-index: 1001;
     -moz-opacity: 0.8;
-    opacity: .80;
+    opacity: 0.8;
     filter: alpha(opacity=80);
+  }
+  .title {
+    text-align: center;
   }
   .white_content {
     display: none;
@@ -78,48 +74,47 @@ body {
     background-color: white;
     z-index: 1002;
     overflow: auto;
-    color: rgb(18, 18, 19);
+    color: rgb(24, 24, 24);
+    text-align: left;
   }
-  A:link { 
-    text-decoration: none; 
-    color: darkkhaki;
-    
-   } 
-   A:visited { text-decoration: none; } 
-   A:active { 
+  A:link {
     text-decoration: none;
     color: darkkhaki;
- }
-   A:hover {
-    text-decoration: none; 
-    color: rgb(27, 26, 26); 
-   } 
-   .short-description {
-       font-size: 14px;
-       color: rgba(39, 38, 38, 0.842);
-       text-align: justify;
-
-   }
-   .team{
+  }
+  A:visited {
+    text-decoration: none;
+  }
+  A:active {
+    text-decoration: none;
+    color: darkkhaki;
+  }
+  A:hover {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+  }
+  .short-description {
+    font-size: 14px;
+    color: rgba(27, 27, 27, 0.842);
+  }
+  .team {
     width: 300px;
     height: 100px;
     margin-top: 30px;
-    background-color:rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.507);
     margin-left: 0px;
     border-radius: 20px;
     display: block;
-    box-shadow: 0 10px  10px #ccc;   
+    box-shadow: 0 10px 10px #ccc;
     font-size: 40px;
     text-align: center;
     color: cornsilk;
-   }
-   .team13{
-       padding-top: 27px;
-   }
-   .market_text{
-       background: #ff0000;
-        padding: 0 3px;
-        border: 1px dashed #333;
-   }
-   
-   s
+  }
+  .team13 {
+    padding-top: 27px;
+  }
+  .market_text {
+    background: #ff0000;
+    padding: 0 3px;
+    border: 1px dashed #333;
+  }
+  
